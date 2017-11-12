@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JCudaVectorAddKernel.cu&apos; to &apos;satscan&apos;&#x0D;&#x0A;- Original project: &apos;satscan&apos;&#x0D;&#x0A;- Destination element: &apos;satscan&apos;&#x0D;&#x0A;- Original element: &apos;JCudaVectorAddKernel.cu&apos;" description="Copy file" destination="=satscan" element1="src/satscan/JCudaVectorAddKernel.cu" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1510479422280" units="0" version="1.0"/>
+</session>

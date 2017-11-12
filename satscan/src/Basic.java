@@ -104,7 +104,7 @@ public class Basic {
 	
 	public static void main(String[] args) throws IOException{
 		long startTime = System.currentTimeMillis();
-		
+		//System.out.println("Started");
 		BufferedReader br = new BufferedReader(new FileReader("test.csv"));
         String line = br.readLine();
         String splitBy = ",";
@@ -138,7 +138,7 @@ public class Basic {
        }
        br.close();
         
-       System.out.println("Nirmal to Bhainsa(testing):"+distance(19.096412, 78.342975, 19.103066, 77.965299));
+       //System.out.println("Nirmal to Bhainsa(testing):"+distance(19.096412, 78.342975, 19.103066, 77.965299));
        //Actual distance is 41.5 km, but it is showing 39.69 km, because there are two curves.
        //System.out.println("Testing loglikelihood with paper values "+loglikelihood(199, 800, 186.62, 2500));
        

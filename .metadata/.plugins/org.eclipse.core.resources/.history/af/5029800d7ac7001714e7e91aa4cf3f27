@@ -1,0 +1,5 @@
+package satscan;
+
+public class JCudaRuntimeTest {
+
+}

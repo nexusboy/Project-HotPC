@@ -74,8 +74,8 @@ public class Satscan {
 			    		    	   for(int j=0;j<i;j++){
 			    		    		  radius_grid[i][j] = distance(Address.get(i).latitude, Address.get(i).longitude, Address.get(j).latitude, Address.get(j).longitude);
 			    		    		  radius_grid[j][i] = radius_grid[i][j];
-			    		    	   }
 			    		    	   
+			    		    	   }
 			    		    	   radius_grid[i][i] = 0.0;
 			    		       }
 			    			
@@ -135,6 +135,7 @@ public class Satscan {
 		/*
 		 * Code for getting the input from the file
 		 * */
+		double spacing = 0.1 ; // This is the variable used while enumerating all possible points in that rectangle 
 		long startTime = System.currentTimeMillis();
 		BufferedReader br = new BufferedReader(new FileReader("test.csv"));
         String line = br.readLine();
@@ -148,7 +149,7 @@ public class Satscan {
             //System.out.println(b[0]+": "+b[1]+" "+b[2]);
             double latitude = Double.parseDouble(b[0]);
             double longitude = Double.parseDouble(b[1]);
-            
+          //  System.out.println("lat = " + latitude + "long = " + longitude);
             Address.add(new Coordinates(latitude, longitude));
             //System.out.println(distance(-111.9606778, 33.38364645, lat2, long2));
             
@@ -160,16 +161,16 @@ public class Satscan {
             }
             
             if(longitude < min_long){
-            	longitude = min_long;
+            	min_long =longitude; 
             }
             else if(longitude > max_long){
-            	longitude = max_long;
+            	 max_long = longitude;
             }
             
        }
        br.close();
-       
-       int numberofsimulations = 1500;
+      // System.out.println("min = "+min_long + "max = " + max_long);
+       int numberofsimulations = 20;
        List<Double> simulations_llh = MCSimulations(numberofsimulations,Address.size(), min_lat, max_lat, min_long, max_long);
        double alpha = 0.5;
        double llh_limit = simulations_llh.get((int) Math.round(alpha*(numberofsimulations+1)));
@@ -186,8 +187,8 @@ public class Satscan {
     	   radius_grid[i][i] = 0.0;
        }
        
+      /*
        List<Circles> Candidate_circles = new ArrayList<>();
-       
        for(int i=0;i<Address.size();i++){//each point as centre of candidate circle
     	   
     	   double max_llh = Double.MIN_VALUE;
@@ -216,10 +217,41 @@ public class Satscan {
     	   }
     	   
     	   //for each point as centre and all other points as radius, we have got candidate circle of max log likelihood among them
-    	   //Since all circles are overlapping for a single point as centre for all, we have taken only one circle of max llh
+    	   //Since all circles are overlapping for a single point as centre for all, we have taken only one circle of maxllh
     	   
     	   Candidate_circles.add(new Circles(max_llh,i, endpoint, radius_grid[i][endpoint]));
        }
+       */
+       
+       // -------------------- Total Latitudes Possible ------------------- Storing it into an arrayList 
+       ArrayList<Double> allPossibleLatitutes = new ArrayList<Double>() ; 
+       // Enumerated all possible latitudes in the arraylist 
+       enumerateAllpossible(allPossibleLatitutes, min_lat, max_lat, spacing); 
+       // -------------------- Total Longitutes Possible ------------------- Storing it into an arrayList 
+       ArrayList<Double> allPossibleLongitutes = new ArrayList<Double>();
+      // System.out.println("min = "+min_long + "max = " + max_long);
+       enumerateAllpossible(allPossibleLongitutes, min_long, max_long , spacing);
+       System.out.println("Size of all pos lats = " +allPossibleLatitutes.size());
+       System.out.println(allPossibleLongitutes.size());
+       //1) ENUMERATE ALL POSSIBLE CENTERS OF THE GRID 
+       ArrayList <Coordinates> centres = new ArrayList<Coordinates>();
+       
+       //2) Add all possible centers of the grid into the created array-list using the below function 
+       addPossibleCentres(centres,allPossibleLatitutes,allPossibleLongitutes);
+       
+       //3) Now find the radius of all possible circles from each other and store their radius in the 2Darray
+       double [][] finalGrid = new double [centres.size()][centres.size()];
+       
+       //3.1) populate the grid with the radius values ... 
+       populateFinalGrid(finalGrid, centres);
+       
+       //4.0) Create candidate circles List and now populate the candidate circles 
+       List<Circles> Candidate_circles = new ArrayList<>();
+       
+       //4.1) Populate the list with the Candidate circles 
+       populateCandidateCircles(Candidate_circles,finalGrid,centres,Address);
+       
+       System.out.println("Size Of Candidate Circles = " + Candidate_circles.size());
        
        //Upto here we can get candidate circle list and MCS.
        int[] overlapping_state = new int[Candidate_circles.size()];
@@ -261,5 +293,110 @@ public class Satscan {
        System.out.println("Run Time for Satscan: "+totalTime);
        
 	}//main
+
+	private static void populateCandidateCircles(List<Circles> candidate_circles, double[][] finalGrid, ArrayList<Coordinates> centres, List<Coordinates> address) {
+	//	System.out.println("entered");
+		for (int i = 0; i < centres.size() ; i++) {	// For Each Center in the Grid 
+			double max_llh = Double.MIN_VALUE;
+			int endpoint = 0 ;
+			for (int j = 0; j < centres.size() ; j++) {	// For All Other centers in the list 
+				if(i != j) {	// If they are different centers
+					 int numOfPoints = 0 ; // Finding number of points in each circle......
+					 for (int k = 0; k < address.size() ; k++) { // For each point in the dataset find if the point lies in the circle or not ? 
+						if(isInsideaCircle(centres.get(i),finalGrid[i][j] , address.get(k))) {
+							numOfPoints++;
+						} // end inner if 
+					} // End the K thing 
+					//Now Calculate log likelihood of each circle. 
+					// System.out.println(numOfPoints);
+					  double current_llh = loglikelihood(numOfPoints, address.size(), 3.14*finalGrid[i][j]*finalGrid[i][j], 2500);	    			   
+	    			   if(current_llh > max_llh){
+	    				   max_llh = current_llh;
+	    				   endpoint = j;
+	    			   }
+	    			   
+				} // end if
+			}// end j for
+			candidate_circles.add(new Circles(max_llh,i, endpoint, finalGrid[i][endpoint]));
+		}// end i for 
+	}
+
+	private static boolean isInsideaCircle(Coordinates coordinates, double d, Coordinates coordinates2) {
+		if(distance(coordinates.latitude, coordinates.longitude, coordinates2.latitude, coordinates2.longitude) <= d ) {// If distance between the centers <= 
+			// rad then inside the circle 
+			return true ; 
+		}
+		else {
+			return false;
+		}
+		
+	}
+
+	private static void populateFinalGrid(double[][] finalGrid, ArrayList<Coordinates> centres) {
+		for (int i = 0; i < centres.size() ; i++) {
+			for (int j = 0; j < i ; j++) {
+				// calculating the radius 
+				finalGrid[i][j] = distance(centres.get(i).latitude, centres.get(i).longitude, centres.get(j).latitude, centres.get(j).longitude);
+				//System.out.println(finalGrid[i][j]);
+				finalGrid[j][i] = finalGrid[i][j];
+			}
+		 finalGrid[i][i] = 0 ;
+		}
+	}
+
+	/**
+	 * This Function is Just a utility function which creates all possible centers in the grid  
+	 * @param centres
+	 * @param allPossibleLatitutes
+	 * @param allPossibleLongitutes
+	 */
+	private static void addPossibleCentres(ArrayList<Coordinates> centres, ArrayList<Double> allPossibleLatitutes,
+			ArrayList<Double> allPossibleLongitutes) {
+			for(int i = 0 ; i < allPossibleLatitutes.size() ; i++ ) {
+				for (int j = 0; j < allPossibleLongitutes.size(); j++) {
+					centres.add(new Coordinates(allPossibleLatitutes.get(i), allPossibleLongitutes.get(j)));
+					//System.out.println("ajjsajj");
+				}
+			}	
+	}
+
+	/**
+	 * @param allPosPoints	: The matrix in which the distance between all possible latitude and longitude is to be stored
+	 * @param allPossibleLatitutes	: arrayList of all possible latitudes  for drawing the circles 
+	 * @param allPossibleLongitutes	: arrayList of all possible longitudes  for drawing the circles 
+	 */
+	/*
+	private static void fillAllPointsArray(double[][] allPosPoints, ArrayList<Double> allPossibleLatitutes,
+			ArrayList<Double> allPossibleLongitutes) {
+		for(int i = 0 ; i < allPossibleLatitutes.size() ; i++) {
+			
+			for (int j = 0; j < allPossibleLongitutes.size(); j++) {
+				allPosPoints[i][j] = Double.MIN_VALUE ; 
+			}
+		}
+		for(int i = 0 ; i < allPossibleLatitutes.size() ; i++) {
+					for (int j = 0; j < allPossibleLongitutes.size(); j++) {
+						if(i > j || i < j) {
+							if(allPosPoints[i][j] == Double.MIN_VALUE) {
+								allPosPoints[i][j] = 2 * distance(allPossibleLatitutes.get(i), , lat2, lon2)
+							}
+						}
+					}
+				}
+		
+	}
+	*/
+	
+	/**
+	 * Function fills the Arraylist with allPossibleLatitutes | allPossibleLongitutes  Based on the minimum and maximum parameter 
+	 * @param allPossibleLatitutes : Array List to be Filled 
+	 * @param min_lat 	: minimum possible latitude or longitude
+	 * @param max_lat	: max possible latitude or longitude 
+	 */
+	private static void enumerateAllpossible(ArrayList<Double> allPossibleLatitutes, double min_lat, double max_lat,double spacing) {
+		for(double i = min_lat ; i<=max_lat ; i+= spacing) {
+			allPossibleLatitutes.add(i);
+		}
+	}
 }
 
