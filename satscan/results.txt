@@ -1,0 +1,9 @@
+------------- Nov 13 , 2017 , 12:47:04 PM -----------
+------------- Results obtained when the Spacing 0.1 -----------
+------------- A grid of size 4 X 880 ------ 
+Size of all pos lats = 4
+Size of all pos longs = 880 
+Size Of Candidate Circles = 3520
+Centre: 41.851431330000004, -87.62890944000002 Radius: 16.565313586077707
+Run Time for Satscan: 1272282
+-----------------------------------------------------------------------
