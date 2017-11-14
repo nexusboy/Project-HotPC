@@ -58,11 +58,11 @@ public class Satscan {
 	   // System.out.println(threads);
 	    List<Future<Double>> futures = new ArrayList<Future<Double>>();
 	    
-		List<Double> simulations_llh = new ArrayList<>();
 		
 		for(int a=0;a<simulations;a++){
 			        Callable<Double> callable = new Callable<Double>() {
 			            public Double call() throws Exception {
+			            	 
 			                Integer output = 1;
 			                output *= 100 ; 
 			                List<Coordinates> Address = random_set(min_lat, max_lat, min_long, max_long, P);
@@ -171,7 +171,7 @@ public class Satscan {
        }
        br.close();
       // System.out.println("min = "+min_long + "max = " + max_long);
-       int numberofsimulations = 20;
+       int numberofsimulations = 1000;
        List<Double> simulations_llh = MCSimulations(numberofsimulations,Address.size(), min_lat, max_lat, min_long, max_long);
        double alpha = 0.5;
        double llh_limit = simulations_llh.get((int) Math.round(alpha*(numberofsimulations+1)));
@@ -202,7 +202,7 @@ public class Satscan {
        List<Circles> Candidate_circles = new ArrayList<>();
        
        //4.1) Populate the list with the Candidate circles 
-       populateCandidateCircles(Candidate_circles,finalGrid,centres,Address);
+       populateCandidateCirclesCopy(Candidate_circles,finalGrid,centres,Address);
        
        System.out.println("Size Of Candidate Circles = " + Candidate_circles.size());
        
@@ -273,7 +273,28 @@ public class Satscan {
 			candidate_circles.add(new Circles(max_llh,i, endpoint, finalGrid[i][endpoint]));
 		}// end i for 
 	}
-
+	
+	private static void populateCandidateCirclesCopy(List<Circles> candidate_circles,double[][] finalGrid, ArrayList<Coordinates> centres, List<Coordinates> address) {
+		//	System.out.println("entered"); // Not entered 
+		Integer threads = Runtime.getRuntime().availableProcessors();
+	    ExecutorService service = Executors.newFixedThreadPool(threads);
+	    List <Future<Circles>> list = new ArrayList<Future<Circles>>(); 
+			for (int i = 0; i < centres.size() ; i++) {	// For Each Center in the Grid 
+				Future <Circles> future = service.submit(new CallableAdder(i, finalGrid, centres, address));
+				list.add(future);
+			}// end i for
+			service.shutdown();
+			System.out.println(CallableAdder.numOfTimes);
+			// = new ArrayList<Circles>();
+			for(Future<Circles> fut : list) {
+				try {
+					candidate_circles.add(fut.get());
+				} catch (InterruptedException | ExecutionException e) {
+					System.out.println("Exception arised due to the future object ");
+					e.printStackTrace();
+				}
+			}
+		}
 	/**
 	 * This Function is created for checking whether the point 
 	 * @param coordinates : Center 
