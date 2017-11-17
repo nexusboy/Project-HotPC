@@ -19,3 +19,11 @@ Size Of Candidate Circles = 3520
 Centre: 41.851431330000004, -87.62890944000002 Radius: 16.565313586077707
 Run Time for Satscan: 233735
 ------------------------------------------------------------------
+
+
+-----------======Results of Parallel Version On 8 Core Processor======-------------  
+Size of all pos lats = 37
+Size of all pos lats = 98
+Size Of Candidate Circles = 3626
+Run Time for Satscan: 918832
+----------------------No Hotspot Found -------------------------------------
