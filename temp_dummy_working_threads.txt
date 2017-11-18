@@ -1,0 +1,101 @@
+/*
+	private static List<Circles> populateCandidateCirclesThreadedVer( double[][] finalGrid, ArrayList<Coordinates> centres, List<Coordinates> address) {
+	//	System.out.println("entered");
+		Integer threads = Runtime.getRuntime().availableProcessors();
+	    ExecutorService service = Executors.newFixedThreadPool(threads);
+	   // System.out.println(threads);
+	    List<Future<Circles>> futures = new ArrayList<Future<Circles>>();
+		for (int i = 0; i < centres.size() ; i++) {	// For Each Center in the Grid 	
+					double max_llh = Double.MIN_VALUE;
+					int endpoint = 0 ;
+					for (int j = 0; j < centres.size() ; j++) {	// For All Other centers in the list 
+						if(i != j) {	// If they are different centers
+							 int numOfPoints = 0 ; // Finding number of points in each circle......
+							 for (int k = 0; k < address.size() ; k++) { // For each point in the dataset find if the point lies in the circle or not ? 
+								if(isInsideaCircle(centres.get(i),finalGrid[i][j] , address.get(k))) {
+									numOfPoints++;
+								} // end inner if 
+							} // End the K thing 
+							//Now Calculate log likelihood of each circle. 
+							// System.out.println(numOfPoints);
+							  double current_llh = loglikelihood(numOfPoints, address.size(), 3.14*finalGrid[i][j]*finalGrid[i][j], 2500);	    			   
+			    			   if(current_llh > max_llh){
+			    				   max_llh = current_llh;
+			    				   endpoint = j;
+			    			   }
+			    			   
+						} // end if
+					}// end j for
+					return Circles(max_llh,i, endpoint, finalGrid[i][endpoint]);
+					}	
+			
+			futures.add(service.submit(callable));
+			//candidate_circles.add();
+		}// end i loop 
+		service.shutdown();
+		 List<Circles> outputs = new ArrayList<Circles>();
+		    for (Future<Circles> future : futures) {
+		        try {
+					outputs.add(future.get());
+				} catch (InterruptedException e) {
+					System.out.println("Exception Caught");
+					e.printStackTrace();
+				} catch (ExecutionException e) {
+					System.out.println("Exception Caught");
+					e.printStackTrace();
+				}
+		    }
+		return outputs;
+		
+	}
+	*/
+	
+	// npulipeta working code on the basic version of SatScan 
+ /*
+       double[][] radius_grid = new double[Address.size()][Address.size()];
+       
+       for(int i=0;i<Address.size();i++){ //nikhil
+    	   
+    	   for(int j=0;j<i;j++){
+    		  radius_grid[i][j] = distance(Address.get(i).latitude, Address.get(i).longitude, Address.get(j).latitude, Address.get(j).longitude);
+    		  radius_grid[j][i] = radius_grid[i][j];
+    	   }
+    	   
+    	   radius_grid[i][i] = 0.0;
+       }
+       
+      
+       List<Circles> Candidate_circles = new ArrayList<>();
+       for(int i=0;i<Address.size();i++){//each point as centre of candidate circle
+    	   
+    	   double max_llh = Double.MIN_VALUE;
+    	   int endpoint = 0;
+    	   
+    	   for(int j=0;j<Address.size();j++){//All other points as radius 
+    		   if(i!=j){
+    			   
+    			   int point_count = 0;//counting number of points inside candidate circle
+    			   
+    			   for(int k=0;k<Address.size();k++){
+    				   
+    				   if(radius_grid[i][k] <= radius_grid[i][j]){
+    					   point_count++;
+    				   }
+    			   }
+    			   
+    			   //calculate log likelihood of each candidate circle
+    			   double current_llh = loglikelihood(point_count, Address.size(), 3.14*radius_grid[i][j]*radius_grid[i][j], 2500);
+    			   
+    			   if(current_llh > max_llh){
+    				   max_llh = current_llh;
+    				   endpoint = j;
+    			   }
+    		   }
+    	   }
+    	   
+    	   //for each point as centre and all other points as radius, we have got candidate circle of max log likelihood among them
+    	   //Since all circles are overlapping for a single point as centre for all, we have taken only one circle of maxllh
+    	   
+    	   Candidate_circles.add(new Circles(max_llh,i, endpoint, radius_grid[i][endpoint]));
+       }
+       */

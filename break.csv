@@ -1,0 +1,320 @@
+id,file,reportedtime,occurrencetype,occurrencetypeid,crimetype,crimetypeid,crimecategory,crimecategoryid,location,locationid,neighbourhood,neighbourhoodid,lat,long
+4.20E+12,2015-17154,6/20/2015 10:00:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,16XX BOWEN RD,20551,Northfield,5,49.178122,-123.973326
+4.20E+11,2015-8918,04-06-2015 09:55,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,16XX BOWEN RD,20551,Northfield,5,49.178122,-123.973326
+4.20E+12,2015-13472,5/21/2015 4:30:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,19XX EAST WELLINGTON RD,20736,Northfield,5,49.179954,-123.984312
+4.20E+11,2015-8911,04-06-2015 08:11,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,19XX EAST WELLINGTON RD,20736,Northfield,5,49.179954,-123.984312
+4.20E+12,2015-18285,6/29/2015 10:00:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,1XX 10TH ST,20785,Harewood,10,49.133471,-123.926661
+4.20E+12,2015-12231,05-09-2015 07:45,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,1XX 10TH ST,20785,Harewood,10,49.133471,-123.926661
+4.20E+12,2015-11123,4/28/2015 12:12:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,1XX 10TH ST,20785,Harewood,10,49.133471,-123.926661
+4.20E+11,2015-9606,4/13/2015 12:57:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,1XX NICOL ST,20971,South End,6,49.158916,-123.934058
+4.20E+12,2015-13895,5/25/2015 6:56:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,23XX BOWEN RD,21285,Diver Lake,13,49.195553,-123.994984
+4.20E+12,2015-13366,5/19/2015 10:00:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,2XX EATON ST,21675,South End,6,49.149405,-123.930677
+4.20E+11,2015-8307,3/31/2015 10:33:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,3XX WAKESIAH AVE,22393,University District,19,49.159922,-123.961118
+4.20E+12,2015-11143,4/28/2015 3:34:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,44XX WELLINGTON RD,22525,Diver Lake,13,49.207307,-124.022783
+4.20E+11,2015-5997,2/26/2015 5:18:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,47XX UPLANDS DR,22573,Rutherford,12,49.22198,-124.030492
+4.20E+11,2015-8315,3/31/2015 9:37:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,5XX TOWNSITE RD,23432,Townsite,17,49.177008,-123.954217
+4.20E+12,2015-18025,6/28/2015 6:59:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,9XX HECATE ST,24282,Downtown,2,49.15678,-123.939805
+4.20E+12,2015-15589,06-09-2015 03:40,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,9XX OLD VICTORIA RD,24306,Chase River,8,49.140136,-123.928921
+4.20E+12,2015-11391,05-01-2015 05:30,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,XX FRONT ST,25559,Downtown,2,49.169009,-123.937177
+4.20E+12,2015-15375,06-07-2015 09:37,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,XX NICOL ST,25605,South End,6,49.16247,-123.934231
+4.20E+12,2015-14752,06-01-2015 16:40,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,6XX GEORGIA AVE,25853,Harewood,10,49.154188,-123.952451
+4.20E+12,2015-17202,6/20/2015 5:30:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,41XX MOSTAR RD,26531,Diver Lake,13,49.209694,-124.035163
+4.20E+12,2015-13235,5/19/2015 9:00:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,41XX MOSTAR RD,26531,Diver Lake,13,49.209694,-124.035163
+4.20E+12,2015-13899,5/25/2015 6:10:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,25XX MCCULLOUGH RD,26632,Northfield,5,49.196917,-123.982662
+4.20E+12,2015-14801,06-02-2015 05:10,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,9XX 5TH ST,26668,Westwood,18,49.154348,-123.971329
+4.20E+12,2015-14003,5/26/2015 8:06:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,9XX 5TH ST,26668,Westwood,18,49.154348,-123.971329
+4.20E+12,2015-13996,5/26/2015 3:16:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,9XX 5TH ST,26668,Westwood,18,49.154348,-123.971329
+4.20E+11,2015-7163,3/18/2015 10:19:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,9XX 5TH ST,26668,Westwood,18,49.154348,-123.971329
+4.20E+11,2015-8689,04-03-2015 02:30,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,7XX NICOL ST,26716,South End,6,49.150538,-123.93375
+4.20E+12,2015-14330,5/29/2015 6:18:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,5XX BOWEN RD,26752,University District,19,49.170985,-123.952636
+4.20E+12,2015-12546,05-11-2015 22:00,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,5XX BOWEN RD,26752,University District,19,49.170985,-123.952636
+4.20E+12,2015-13909,5/25/2015 9:41:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,3XX WESTWOOD RD,26789,Westwood,18,49.163841,-123.996683
+4.20E+11,2015-9407,04-11-2015 07:24,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,17XX BOWEN RD,26852,Northfield,5,49.181269,-123.979348
+4.20E+11,2015-9768,4/15/2015 3:30:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,66XX MARY ELLEN DR,26936,Dover,11,49.238461,-124.054878
+4.20E+12,2015-12836,5/14/2015 9:00:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,8XX OLD VICTORIA RD,26949,South End,6,49.143817,-123.934796
+4.20E+12,2015-10981,4/24/2015 6:00:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,8XX OLD VICTORIA RD,26949,South End,6,49.143817,-123.934796
+4.20E+11,2015-9535,04-11-2015 19:00,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,8XX OLD VICTORIA RD,26949,South End,6,49.143817,-123.934796
+4.20E+12,2015-13165,5/16/2015 7:30:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,1XX NICOL ST,27142,South End,6,49.160501,-123.934241
+4.20E+12,2015-13067,5/17/2015 10:15:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,8XX BRUCE AVE,27195,Harewood,10,49.1447,-123.949655
+4.20E+11,2015-6451,03-09-2015 11:39,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,XX CLIFF ST,27223,Downtown,2,49.169477,-123.939452
+4.20E+11,2015-5019,3/13/2015 7:25:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,XX ESPLANADE,27224,South End,6,49.160986,-123.930667
+4.20E+11,2015-6665,2/28/2015 10:21:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,XX ESPLANADE,27224,South End,6,49.160986,-123.930667
+4.20E+12,2015-10985,4/27/2015 9:13:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,1XX FRY ST,27235,South End,6,49.158946,-123.929971
+4.20E+11,2015-6402,03-08-2015 12:45,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,40XX OLD SLOPE PL,27364,Diver Lake,13,49.206671,-124.033828
+4.20E+12,2015-14091,5/27/2015 1:30:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,68XX ISLAND HWY N,27373,Dover,11,49.239148,-124.050679
+4.20E+11,2015-8537,04-02-2015 21:55,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,12XX NELSON ST,27387,Townsite,17,49.187214,-123.970524
+4.20E+12,2015-12635,05-12-2015 22:00,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,36XX SHENTON RD,27440,Diver Lake,13,49.204082,-124.007939
+4.20E+11,2015-5607,03-10-2015 16:36,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,36XX SHENTON RD,27440,Diver Lake,13,49.204082,-124.007939
+4.20E+11,2015-9397,04-11-2015 04:25,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,11XX FARQUHAR ST,27464,South End,6,49.156151,-123.930526
+4.20E+12,2015-13183,5/18/2015 2:42:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,23XX NORTHFIELD RD,27494,Northfield,5,49.189513,-124.001507
+4.20E+12,2015-18593,07-03-2015 05:32,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,43XX BOBAN DR,27506,Diver Lake,13,49.208628,-124.032847
+4.20E+12,2015-12248,05-09-2015 10:39,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,18XX FREMONT RD,27876,Northfield,5,49.193995,-123.981603
+4.20E+12,2015-16620,6/17/2015 7:33:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,20XX BOXWOOD RD,27886,Northfield,5,49.186255,-123.990016
+4.20E+12,2015-16613,6/17/2015 4:41:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,20XX BOXWOOD RD,27886,Northfield,5,49.186255,-123.990016
+4.20E+12,2015-14906,06-03-2015 06:21,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,20XX BOXWOOD RD,27886,Northfield,5,49.186255,-123.990016
+4.20E+11,2015-6663,3/13/2015 7:25:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,20XX BOXWOOD RD,27886,Northfield,5,49.186255,-123.990016
+4.20E+12,2015-12643,05-12-2015 22:00,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,3XX WALLACE ST,27907,Downtown,2,49.165238,-123.939134
+4.20E+11,2015-7245,3/19/2015 9:52:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,39XX VICTORIA AVE,27960,Rutherford,12,49.207494,-124.014533
+4.20E+12,2015-14205,5/28/2015 3:45:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,66XX MARY ELLEN DR,27971,Dover,11,49.23921,-124.054568
+4.20E+12,2015-14097,5/27/2015 12:00:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,67XX ISLAND HWY N,27973,Dover,11,49.237596,-124.047549
+4.20E+11,2015-7926,3/27/2015 3:40:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,67XX ISLAND HWY N,27973,Dover,11,49.237596,-124.047549
+4.20E+11,2015-8167,3/29/2015 1:41:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,40XX NORWELL DR,28027,Rutherford,12,49.207616,-124.0157
+4.20E+11,2015-9404,04-11-2015 05:47,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,49XX WELLINGTON RD,28035,Diver Lake,13,49.212486,-124.029288
+4.20E+12,2015-10541,4/22/2015 10:49:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,6XX TRANS-CANADA HWY,28040,Newcastle/brechin,16,49.189334,-123.951762
+4.20E+11,2015-9807,4/15/2015 12:51:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,25XX BOWEN RD,28059,Northfield,5,49.200855,-123.999848
+4.20E+12,2015-16051,06-12-2015 16:35,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,10XX FARQUHAR ST,28061,South End,6,49.156151,-123.930526
+4.20E+12,2015-10979,4/24/2015 6:00:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,3XX 10TH ST,28123,Harewood,10,49.136073,-123.936635
+4.20E+12,2015-12214,05-09-2015 03:15,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,65XX ISLAND HWY N,28220,Dover,11,49.234722,-124.044758
+4.20E+12,2015-13232,5/16/2015 7:40:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,1XX GAVA PL,28236,Diver Lake,13,49.204352,-124.010276
+4.20E+12,2015-13149,5/18/2015 5:48:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,36XX SHENTON RD,28240,Diver Lake,13,49.205328,-124.011486
+4.20E+12,2015-18376,07-01-2015 08:43,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,49XX JORDAN AVE,28241,Diver Lake,13,49.210867,-124.033476
+4.20E+12,2015-12437,05-10-2015 20:00,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,49XX JORDAN AVE,28241,Diver Lake,13,49.210867,-124.033476
+4.20E+12,2015-14004,5/26/2015 8:47:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,2XX  PRIDEAUX ST,28297,Downtown,2,49.166196,-123.944566
+4.20E+12,2015-13905,5/25/2015 9:14:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,24XX HAYES RD,28326,Diver Lake,13,49.203367,-124.004478
+4.20E+12,2015-14907,06-02-2015 19:00,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,19XX BOXWOOD RD,28353,Northfield,5,49.185469,-123.988644
+4.20E+12,2015-14710,06-01-2015 12:33,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,20XX TULSA RD,28354,Northfield,5,49.18751,-123.990846
+4.20E+12,2015-16638,6/17/2015 10:21:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,8XX MAUGHAN RD,28435,Duke Pt,9,49.143718,-123.882563
+4.20E+12,2015-16501,6/16/2015 10:21:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,35XX SHENTON RD,28449,Diver Lake,13,49.204082,-124.007939
+4.20E+12,2015-16531,6/16/2015 2:30:00 AM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,19XX ZORKIN RD,28456,Newcastle/brechin,16,49.190634,-123.950788
+4.20E+12,2015-18947,07-06-2015 08:10,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,22XX DORMAN RD,28490,Northfield,5,49.194996,-123.98533
+4.20E+12,2015-17909,6/24/2015 10:00:00 PM,Commercial Break and Enter,2120-01,Break and Enter,1,Property Crime,1,34XX SHENTON RD,28529,Diver Lake,13,49.202292,-124.006365
+4.20E+12,2015-18843,07-05-2015 09:10,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX WAKESIAH AVE,21050,University District,19,49.168243,-123.962506
+4.20E+12,2015-11013,4/27/2015 7:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX WAKESIAH AVE,21050,University District,19,49.168243,-123.962506
+4.20E+11,2015-8148,3/29/2015 8:14:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX WAKESIAH AVE,21052,University District,19,49.169595,-123.962126
+4.20E+11,2015-5521,2/28/2015 8:18:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,23XX BOWEN RD,21285,Diver Lake,13,49.195553,-123.994984
+4.20E+12,2015-12484,05-11-2015 10:20,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,24XX PARVEEN PL,21394,Diver Lake,13,49.199657,-124.002387
+4.20E+11,2015-6470,03-06-2015 18:06,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,28XX DEPARTURE BAY RD,21538,Departure Bay,3,49.205167,-123.970176
+4.20E+12,2015-18542,07-02-2015 19:05,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX HAREWOOD RD,21692,University District,19,49.156901,-123.954335
+4.20E+11,2015-5644,2/28/2015 12:11:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,31XX BARONS RD,21853,Rutherford,12,49.208165,-124.002028
+4.20E+11,2015-6968,3/16/2015 8:42:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX 3RD ST,22231,University District,19,49.16251,-123.952426
+4.20E+11,2015-6145,03-08-2015 16:53,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX HOLLY AVE,22327,Townsite,17,49.174968,-123.949396
+4.20E+12,2015-10288,4/19/2015 9:41:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,47XX UPLANDS DR,22573,Rutherford,12,49.22198,-124.030492
+4.20E+11,2015-9118,04-08-2015 13:09,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX 3RD ST,22655,University District,19,49.162751,-123.953829
+4.20E+12,2015-15115,06-05-2015 04:22,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX SELBY ST,22823,Downtown,2,49.162419,-123.940162
+4.20E+11,2015-8628,04-01-2015 22:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX WAKESIAH AVE,22846,University District,19,49.156134,-123.96111
+4.20E+12,2015-18917,07-05-2015 19:40,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,5XX 6TH ST,23284,Harewood,10,49.151338,-123.951042
+4.20E+11,2015-8451,04-01-2015 11:10,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX VIEW ST,25665,South End,6,49.153718,-123.937624
+4.20E+12,2015-15180,06-05-2015 19:29,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,5XX SELBY ST,25880,Downtown,2,49.161235,-123.938392
+4.20E+11,2015-5295,2/21/2015 8:22:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX COLUMBIA ST,26128,South End,6,49.15245,-123.939977
+4.20E+11,2015-9552,04-11-2015 09:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX ARDOON PL,26161,Diver Lake,13,49.204426,-124.019628
+4.20E+12,2015-16688,6/17/2015 2:55:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,10XX CHASE RIVER RD,26257,Chase River,8,49.13743,-123.923517
+4.20E+12,2015-12442,05-10-2015 17:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,10XX CHASE RIVER RD,26257,Chase River,8,49.13743,-123.923517
+4.20E+12,2015-14148,5/27/2015 4:36:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,21XX BOWEN RD,26275,Northfield,5,49.188872,-123.987962
+4.20E+11,2015-5729,2/20/2015 3:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,21XX BOWEN RD,26275,Northfield,5,49.188872,-123.987962
+4.20E+12,2015-14769,06-01-2015 09:30,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,30XX MCCAULEY DR ,26353,Departure Bay,3,49.20674,-123.998696
+4.20E+12,2015-15147,06-05-2015 12:53,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX FRONT ST ,26396,Downtown,2,49.166294,-123.935258
+4.20E+11,2015-9436,04-10-2015 19:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,21XX NORTHFIELD RD,26569,Northfield,5,49.192007,-123.989766
+4.20E+12,2015-11825,05-05-2015 22:33,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX NICOL ST,26578,South End,6,49.15703,-123.93407
+4.20E+12,2015-10428,4/21/2015 10:05:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX NICOL ST,26578,South End,6,49.15703,-123.93407
+4.20E+11,2015-9527,04-12-2015 09:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX 1ST ST,26593,University District,19,49.170376,-123.960256
+4.20E+11,2015-7132,3/18/2015 12:33:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX HALIBURTON ST,26615,South End,6,49.160911,-123.932827
+4.20E+12,2015-10855,4/25/2015 7:37:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX MILTON ST,26657,Downtown,2,49.161126,-123.94234
+4.20E+12,2015-10066,4/17/2015 8:16:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,5XX ARBUTUS AVE,26660,Townsite,17,49.177767,-123.951233
+4.20E+11,2015-9576,4/13/2015 9:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,7XX TERMINAL AVE N,26717,Newcastle/brechin,16,49.178769,-123.948133
+4.20E+11,2015-9437,04-11-2015 13:30,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,7XX TERMINAL AVE N,26717,Newcastle/brechin,16,49.178769,-123.948133
+4.20E+12,2015-13137,5/18/2015 1:22:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX HOWARD AVE,26723,University District,19,49.169404,-123.955198
+4.20E+12,2015-12410,05-11-2015 04:05,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX ACACIA AVE,26732,University District,19,49.168355,-123.959569
+4.20E+11,2015-8431,04-01-2015 02:08,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,5XX 5TH ST,26750,Harewood,10,49.155147,-123.953135
+4.20E+12,2015-16372,6/15/2015 10:23:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX ROSEHILL ST,26760,Townsite,17,49.176196,-123.956731
+4.20E+12,2015-14224,5/27/2015 5:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,9XX TERMINAL AVE N,26766,Newcastle/brechin,16,49.181007,-123.950918
+4.20E+11,2015-7509,3/22/2015 4:09:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX BRUCE AVE,26792,University District,19,49.158219,-123.949524
+4.20E+11,2015-9571,4/13/2015 12:00:01 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX MILTON ST,26846,Downtown,2,49.169016,-123.94675
+4.20E+12,2015-17076,6/20/2015 7:54:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,16XX ESTEVAN RD,26851,Newcastle/brechin,16,49.186622,-123.957431
+4.20E+12,2015-12384,05-05-2015 12:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,16XX ESTEVAN RD,26851,Newcastle/brechin,16,49.186622,-123.957431
+4.20E+11,2015-4794,2/20/2015 6:20:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,24XX CRYSTAL BROOK WAY,26859,Diver Lake,13,49.20184,-124.027508
+4.20E+11,2015-7654,3/23/2015 10:27:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX KENNEDY ST,26878,Downtown,2,49.157794,-123.937374
+4.20E+12,2015-17850,6/26/2015 12:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX HOWARD AVE,26915,University District,19,49.163292,-123.955235
+4.20E+12,2015-11390,05-01-2015 04:22,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,66XX MARY ELLEN DR,26936,Dover,11,49.238461,-124.054878
+4.20E+11,2015-5097,03-07-2015 22:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,8XX OLD VICTORIA RD,26949,South End,6,49.143817,-123.934796
+4.20E+11,2015-9222,04-09-2015 14:18,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,9XX BUFFER RD,26950,Harewood,10,49.140739,-123.941551
+4.20E+11,2015-5688,03-01-2015 02:42,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,5XX VANCOUVER AVE,26989,Newcastle/brechin,16,49.178794,-123.946567
+4.20E+12,2015-17814,6/26/2015 12:12:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX BOWEN RD,27055,University District,19,49.172336,-123.958643
+4.20E+12,2015-12498,05-11-2015 19:51,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,27XX JOANNA TERR,27095,Diver Lake,13,49.202271,-124.025329
+4.20E+11,2015-9325,04-10-2015 14:27,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,27XX JOANNA TERR,27095,Diver Lake,13,49.202271,-124.025329
+4.20E+12,2015-14013,5/26/2015 10:34:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX VICTORIA RD,27114,South End,6,49.152262,-123.936475
+4.20E+12,2015-13442,5/21/2015 6:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,8XX SHORT AVE,27119,Harewood,10,49.146941,-123.939664
+4.20E+12,2015-18523,07-01-2015 16:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,10XX BOWEN RD,27127,University District,19,49.176268,-123.966031
+4.20E+12,2015-13210,5/18/2015 6:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,10XX BOWEN RD,27127,University District,19,49.176268,-123.966031
+4.20E+11,2015-5376,2/27/2015 5:46:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,25XX BATTERSEA RD,27152,Departure Bay,3,49.200392,-123.969103
+4.20E+11,2015-4908,03-10-2015 11:31,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX WESTWOOD RD,27160,Westwood,18,49.167697,-123.992566
+4.20E+11,2015-7150,3/17/2015 10:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX BRUCE AVE,27166,University District,19,49.160258,-123.949515
+4.20E+12,2015-12066,05-07-2015 20:07,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,X FINLAYSON ST,27218,South End,6,49.159882,-123.934801
+4.20E+11,2015-5003,2/22/2015 6:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX HONEY DR,27225,Harewood,10,49.149516,-123.945771
+4.20E+11,2015-7614,3/23/2015 11:51:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX PINE ST,27316,South End,6,49.155665,-123.937864
+4.20E+11,2015-9067,04-07-2015 23:37,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,19XX BOWEN RD,27329,Northfield,5,49.185074,-123.983667
+4.20E+11,2015-6618,03-12-2015 09:10,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,19XX BOWEN RD,27329,Northfield,5,49.185074,-123.983667
+4.20E+12,2015-13819,5/24/2015 7:42:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX HALIBURTON ST,27330,South End,6,49.158921,-123.932726
+4.20E+11,2015-5532,2/28/2015 7:54:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX 9TH ST,27407,Harewood,10,49.139867,-123.933947
+4.20E+12,2015-16155,6/13/2015 11:13:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX LAMBERT AVE,27408,University District,19,49.163301,-123.958228
+4.20E+12,2015-12705,5/13/2015 7:37:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,26XX LABIEUX RD,27436,Diver Lake,13,49.200824,-124.01742
+4.20E+12,2015-11642,05-03-2015 20:28,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,26XX LABIEUX RD,27436,Diver Lake,13,49.200824,-124.01742
+4.20E+11,2015-8765,04-03-2015 22:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,26XX LABIEUX RD,27436,Diver Lake,13,49.200824,-124.01742
+4.20E+12,2015-15017,06-04-2015 08:21,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,33XX TUNNAH RD,27439,Rutherford,12,49.214356,-123.997929
+4.20E+12,2015-12029,05-05-2015 11:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX STIRLING AVE,27472,University District,19,49.157988,-123.946612
+4.20E+11,2015-4810,2/24/2015 8:17:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,8XX VICTORIA RD,27518,South End,6,49.148469,-123.93716
+4.20E+12,2015-16328,6/14/2015 8:12:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX NOVA ST,27539,Harewood,10,49.146528,-123.948334
+4.20E+12,2015-13154,5/18/2015 8:27:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX NOVA ST,27539,Harewood,10,49.146528,-123.948334
+4.20E+11,2015-5255,03-08-2015 08:38,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,16XX TOWNSITE RD,27555,Northfield,5,49.181672,-123.977679
+4.20E+12,2015-12594,05-12-2015 17:54,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX DORIC AVE,27561,University District,19,49.166946,-123.958118
+4.20E+12,2015-14478,5/28/2015 10:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX OCEAN WALK DR,27563,Dover,11,49.235786,-124.036274
+4.20E+11,2015-8591,04-02-2015 12:58,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,39XX BIGGS RD,27577,Pleasant Valley,20,49.206961,-124.039941
+4.20E+12,2015-13963,5/25/2015 8:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,8XX KENTWOOD WAY,27594,Harewood,10,49.14457,-123.961363
+4.20E+12,2015-12398,05-10-2015 22:30,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX CHESTERLEA AVE,27639,University District,19,49.159372,-123.948157
+4.20E+11,2015-5402,2/26/2015 7:31:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX ABBY LANE,27663,Harewood,10,49.152668,-123.956855
+4.20E+12,2015-15412,06-07-2015 16:03,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,20XX LAKESIDE DR,27691,Chase River,8,49.102069,-123.929944
+4.20E+11,2015-6761,2/22/2015 11:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX CRITCHLEY PL,27883,Chase River,8,49.105977,-123.92689
+4.20E+11,2015-5812,03-07-2015 15:27,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,23XX BRIARWOOD PL,27891,Diver Lake,13,49.196629,-124.001531
+4.20E+11,2015-5732,03-03-2015 17:14,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,34XX LITTLEFORD RD,27900,Rutherford,12,49.217765,-124.015119
+4.20E+11,2015-5704,2/26/2015 9:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX VICTORIA RD,27905,South End,6,49.155963,-123.935806
+4.20E+11,2015-5492,2/28/2015 12:11:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,40XX VALEWOOD DR,27908,Pleasant Valley,20,49.20473,-124.045499
+4.20E+11,2015-4946,2/21/2015 9:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX GARDASAN WAY,27912,Harewood,10,49.148583,-123.945594
+4.20E+12,2015-13372,5/20/2015 1:27:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX HALIBURTON ST,27913,South End,6,49.153894,-123.93247
+4.20E+11,2015-6543,03-04-2015 08:42,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX HALIBURTON ST,27913,South End,6,49.153894,-123.93247
+4.20E+11,2015-5074,2/23/2015 9:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,9XX BRUCE AVE,27930,Harewood,10,49.143022,-123.949669
+4.20E+11,2015-9647,4/13/2015 6:22:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX GILLESPIE ST,27947,South End,6,49.152048,-123.931342
+4.20E+11,2015-5530,2/23/2015 7:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX GILLESPIE ST,27947,South End,6,49.152048,-123.931342
+4.20E+11,2015-7302,3/19/2015 6:18:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX IRWIN ST,27955,South End,6,49.158955,-123.931366
+4.20E+11,2015-7638,3/23/2015 4:40:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,54XX BIG BEAR RIDGE,27966,Pleasant Valley,20,49.216814,-124.040303
+4.20E+11,2015-7012,3/16/2015 3:56:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,54XX MILDMAY RD,27968,Pleasant Valley,20,49.215385,-124.047853
+4.20E+11,2015-7244,3/19/2015 9:38:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX DRAKE ST,27975,Newcastle/brechin,16,49.188238,-123.957062
+4.20E+11,2015-8066,3/28/2015 12:37:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,16XX CREEKSIDE DR,28000,Northfield,5,49.178407,-123.977687
+4.20E+11,2015-9666,4/14/2015 12:35:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX PRYDE AVE,28004,Northfield,5,49.177992,-123.972477
+4.20E+11,2015-8045,3/28/2015 7:36:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX PRYDE AVE,28004,Northfield,5,49.177992,-123.972477
+4.20E+11,2015-8558,04-02-2015 03:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,8XX HARBOUR VIEW ST,28005,South End,6,49.146651,-123.933526
+4.20E+12,2015-10634,4/23/2015 9:23:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX 5TH ST,28013,Harewood,10,49.155114,-123.945959
+4.20E+11,2015-8111,3/28/2015 9:25:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX MURRAY ST,28016,Harewood,10,49.144706,-123.945345
+4.20E+11,2015-7789,3/25/2015 6:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,23XX YORK CRES,28030,Diver Lake,13,49.196986,-124.002852
+4.20E+11,2015-8650,04-03-2015 03:58,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,24XX ROSSTOWN RD,28031,Diver Lake,13,49.195578,-124.007452
+4.20E+11,2015-8177,3/29/2015 3:52:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,45XX WELLINGTON RD,28034,Diver Lake,13,49.2069,-124.02399
+4.20E+11,2015-7855,3/26/2015 1:04:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,36XX PLACE RD,28039,Hammond Bay,15,49.22367,-123.950891
+4.20E+11,2015-8786,04-04-2015 12:54,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX CADOGAN ST,28042,Townsite,17,49.181004,-123.952776
+4.20E+11,2015-9254,04-09-2015 20:08,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,7XX HALIBURTON ST,28064,South End,6,49.149395,-123.932255
+4.20E+12,2015-12380,05-09-2015 17:11,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,8XX EATON ST,28065,South End,6,49.147418,-123.930809
+4.20E+12,2015-11054,4/27/2015 5:46:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,8XX FARQUHAR ST,28066,South End,6,49.156087,-123.933969
+4.20E+11,2015-9307,04-10-2015 12:24,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,27XX WILLOW GROUSE CRES,28076,Diver Lake,13,49.200786,-124.022757
+4.20E+11,2015-9370,04-10-2015 08:30,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,7XX TOWNSITE RD,28082,Townsite,17,49.177309,-123.957818
+4.20E+12,2015-11001,4/27/2015 11:02:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX 2ND ST,28087,University District,19,49.16656,-123.95958
+4.20E+12,2015-10356,4/17/2015 10:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX 2ND ST,28087,University District,19,49.16656,-123.95958
+4.20E+12,2015-10669,4/23/2015 4:46:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,29XX THOMAS ST,28097,Departure Bay,3,49.20743,-123.982232
+4.20E+12,2015-12044,05-07-2015 05:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,20XX BOWEN RD,28099,Northfield,5,49.187863,-123.985933
+4.20E+12,2015-10513,4/22/2015 4:05:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,WHITE ST / PRYDE AVE,28102,Northfield,5,49.178471,-123.972452
+4.20E+12,2015-10710,4/24/2015 9:02:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,49XX FILLINGER CRES,28110,North Slope,7,49.238818,-123.98908
+4.20E+12,2015-10048,4/17/2015 5:12:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,10XX HALIBURTON ST,28112,Chase River,8,49.135904,-123.921934
+4.20E+12,2015-11462,05-01-2015 09:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,11XX OLD VICTORIA RD,28114,Chase River,8,49.13444,-123.922271
+4.20E+12,2015-11508,05-01-2015 07:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,13XX CRANBERRY AVE,28121,Harewood,10,49.12674,-123.919893
+4.20E+12,2015-11251,4/29/2015 4:58:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,62XX FERLEY PL,28129,Dover,11,49.24057,-124.022821
+4.20E+12,2015-10362,4/20/2015 3:53:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,26XX BEAVER CREEK CRES,28144,Diver Lake,13,49.199411,-124.017259
+4.20E+12,2015-10394,4/20/2015 9:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,27XX LABIEUX RD,28145,Diver Lake,13,49.204156,-124.021196
+4.20E+12,2015-11246,4/29/2015 2:30:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX COBBLESTONE PL,28146,Diver Lake,13,49.203272,-124.020138
+4.20E+12,2015-11362,4/30/2015 7:47:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX STABLE PL,28147,Diver Lake,13,49.203616,-124.022419
+4.20E+12,2015-11028,4/27/2015 1:09:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX HOWARD AVE,28166,University District,19,49.164854,-123.955228
+4.20E+12,2015-15979,06-12-2015 05:21,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX PINE ST,28173,University District,19,49.170599,-123.951809
+4.20E+12,2015-12494,05-11-2015 19:06,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,2XX PINE ST,28176,Downtown,2,49.164173,-123.950346
+4.20E+12,2015-12050,05-05-2015 05:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,22XX MEREDITH RD,28191,Northfield,5,49.188365,-123.99441
+4.20E+12,2015-13429,5/21/2015 1:29:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,5XX HILLCREST AVE,28215,Harewood,10,49.15442,-123.959683
+4.20E+12,2015-11808,05-05-2015 18:28,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,6XX 6TH ST,28216,Harewood,10,49.151367,-123.956857
+4.20E+12,2015-12062,05-06-2015 06:30,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,33XX UPLANDS DR,28227,Rutherford,12,49.21389,-123.998501
+4.20E+12,2015-12256,05-09-2015 12:25,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,35XX LITTLEFORD RD,28228,Rutherford,12,49.219892,-124.014796
+4.20E+12,2015-12150,05-08-2015 15:28,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,37XX ROSS RD,28229,Rutherford,12,49.213239,-124.009091
+4.20E+12,2015-12573,05-12-2015 13:41,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,24XX LABIEUX RD,28238,Diver Lake,13,49.199109,-124.002242
+4.20E+12,2015-11759,05-04-2015 22:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX ROYAL OAK PL,28266,Westwood,18,49.166326,-123.987841
+4.20E+12,2015-12583,05-05-2015 15:21,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX ALBION ST,28277,University District,19,49.15704,-123.951022
+4.20E+12,2015-12689,5/13/2015 8:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX HOWARD AVE,28279,University District,19,49.161295,-123.955262
+4.20E+12,2015-13286,5/19/2015 5:13:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX FOSTER ST,28282,University District,19,49.160856,-123.953824
+4.20E+12,2015-14482,5/30/2015 11:46:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,48XX MCGUFFIE RD,28315,North Slope,7,49.234682,-123.973953
+4.20E+12,2015-14383,5/29/2015 4:17:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,48XX MCGUFFIE RD,28315,North Slope,7,49.234682,-123.973953
+4.20E+12,2015-14367,5/29/2015 9:30:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,16XX SHERIFF WAY,28328,Linley Valley,14,49.211084,-123.974409
+4.20E+12,2015-15242,06-04-2015 21:00,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,7XX PINE ST,28358,South End,6,49.155138,-123.934967
+4.20E+12,2015-15343,06-06-2015 23:12,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,26XX CAMCREST DR,28365,Diver Lake,13,49.199231,-124.021512
+4.20E+12,2015-15593,06-09-2015 04:30,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,7XX CONNAUGHT AVE,28392,Harewood,10,49.150069,-123.942472
+4.20E+12,2015-16215,6/13/2015 8:58:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,40XX BRIGHTON PL,28394,Rutherford,12,49.21605,-124.014856
+4.20E+12,2015-15678,06-09-2015 14:15,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,42XX EARLY DR,28395,Rutherford,12,49.220125,-124.019162
+4.20E+12,2015-15613,06-09-2015 09:49,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX HARWELL RD,28408,Westwood,18,49.165067,-123.991639
+4.20E+12,2015-17046,6/20/2015 4:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,13XX BUSH ST,28428,Northfield,5,49.179331,-123.969916
+4.20E+12,2015-16768,6/18/2015 9:26:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,5XX LAMBERT AVE,28437,Harewood,10,49.15483,-123.958283
+4.20E+12,2015-17261,6/22/2015 4:42:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,GEORGIA AVE / 7TH ST,28439,Harewood,10,49.147558,-123.952499
+4.20E+12,2015-18371,07-01-2015 05:34,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,60XX MOLECY LANE,28440,Dover,11,49.235654,-124.03091
+4.20E+12,2015-16886,6/18/2015 7:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,43XX STONEWOOD PL,28443,Rutherford,12,49.216965,-124.018292
+4.20E+12,2015-16814,6/18/2015 3:49:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,32XX SINGLETON RD,28450,Linley Valley,14,49.212292,-123.988504
+4.20E+12,2015-16905,6/19/2015 10:53:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,SMUGGLERS HILL DR / SHERWOOD DR,28452,Linley Valley,14,49.210603,-123.980802
+4.20E+12,2015-16733,6/17/2015 10:56:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX MCKINNON PL,28453,Hammond Bay,15,49.219152,-123.950046
+4.20E+12,2015-17277,6/22/2015 3:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX WILLOW ST,28459,Newcastle/brechin,16,49.18433,-123.951883
+4.20E+12,2015-16981,6/19/2015 10:22:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX GIGGLESWICK PL,28462,Townsite,17,49.189731,-123.967393
+4.20E+12,2015-16538,6/15/2015 10:00:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,10XX PRESTON DR,28463,Westwood,18,49.144185,-123.977294
+4.20E+12,2015-17038,6/20/2015 1:30:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX ASHLAR AVE,28468,University District,19,49.169428,-123.956637
+4.20E+12,2015-16934,6/19/2015 12:01:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,60XX MT VIEW RD,28470,Pleasant Valley,20,49.230633,-124.052057
+4.20E+12,2015-18512,07-02-2015 15:25,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,3XX ALBERT ST,28474,Downtown,2,49.162583,-123.937797
+4.20E+12,2015-17771,6/26/2015 7:58:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,30XX SHAMROCK PL,28487,Departure Bay,3,49.208308,-123.990401
+4.20E+12,2015-17578,6/24/2015 4:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX STRICKLAND ST,28491,South End,6,49.14852,-123.935016
+4.20E+12,2015-18802,07-04-2015 23:09,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,4XX ALPEN WAY,28500,Harewood,10,49.141404,-123.945016
+4.20E+12,2015-18985,07-06-2015 14:04,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,XX 5TH ST,28505,Harewood,10,49.155111,-123.942508
+4.20E+12,2015-17522,6/24/2015 11:50:00 AM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,59XX PRIMROSE DR,28519,Rutherford,12,49.220633,-124.02774
+4.20E+12,2015-18133,6/26/2015 8:00:00 PM,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,1XX WALNUT ST,28536,Newcastle/brechin,16,49.180968,-123.946584
+4.20E+12,2015-18821,07-05-2015 01:17,Residential Break and Enter,2120-02,Break and Enter,1,Property Crime,1,61XX GARSIDE RD,28545,Pleasant Valley,20,49.22018,-124.04709
+4.20E+12,2015-13078,5/17/2015 2:50:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,1XX PRIDEAUX ST,20993,Downtown,2,49.167448,-123.94486
+4.20E+12,2015-17382,6/23/2015 9:34:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,1XX PROMENADE DR,20998,Downtown,2,49.166611,-123.93292
+4.20E+11,2015-8445,3/31/2015 10:00:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,1XX PROMENADE DR,20998,Downtown,2,49.166611,-123.93292
+4.20E+12,2015-16594,6/16/2015 10:27:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,1XX WAKESIAH AVE,21050,University District,19,49.168243,-123.962506
+4.20E+12,2015-13737,5/20/2015 8:13:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,1XX WAKESIAH AVE,21050,University District,19,49.168243,-123.962506
+4.20E+12,2015-18844,07-04-2015 17:00,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,23XX BOWEN RD,21285,Diver Lake,13,49.195553,-123.994984
+4.20E+12,2015-18057,6/27/2015 3:00:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,23XX BOWEN RD,21285,Diver Lake,13,49.195553,-123.994984
+4.20E+12,2015-16439,6/15/2015 7:09:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,31XX BARONS RD,21853,Rutherford,12,49.208165,-124.002028
+4.20E+11,2015-5180,2/28/2015 8:18:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,42XX DEPARTURE BAY RD,22482,Rutherford,12,49.206262,-124.002542
+4.20E+11,2015-7990,3/27/2015 5:50:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,4XX 3RD ST,22655,University District,19,49.162751,-123.953829
+4.20E+11,2015-7596,3/23/2015 8:53:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,4XX 3RD ST,22655,University District,19,49.162751,-123.953829
+4.20E+12,2015-12138,05-08-2015 13:37,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,9XX HECATE ST,24282,Downtown,2,49.15678,-123.939805
+4.20E+11,2015-5129,2/24/2015 8:17:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,XX FRONT ST,25559,Downtown,2,49.169009,-123.937177
+4.20E+12,2015-16403,6/15/2015 2:12:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,4XX NEWCASTLE AVE,25844,Newcastle/brechin,16,49.176392,-123.94246
+4.20E+12,2015-17029,6/20/2015 11:23:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,9XX HALIBURTON ST,25887,South End,6,49.145129,-123.929956
+4.20E+12,2015-18957,07-06-2015 09:23,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,XX ARENA ST,26062,Downtown,2,49.17072,-123.939566
+4.20E+12,2015-17790,6/26/2015 10:45:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,22XX MCCULLOUGH RD,26073,Northfield,5,49.193792,-123.9796
+4.20E+12,2015-14830,06-01-2015 23:00,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,4XX MACHLEARY ST,26364,Downtown,2,49.160261,-123.945121
+4.20E+12,2015-11559,05-02-2015 21:05,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,10XX STEWART AVE ,26386,Newcastle/brechin,16,49.180904,-123.945772
+4.20E+12,2015-12423,05-10-2015 22:00,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,6XX 1ST ST,26593,University District,19,49.170376,-123.960256
+4.20E+11,2015-6924,3/15/2015 12:37:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,20XX BOXWOOD RD,26695,Northfield,5,49.186665,-123.994741
+4.20E+12,2015-13995,5/26/2015 2:50:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,7XX TERMINAL AVE N,26717,Newcastle/brechin,16,49.178769,-123.948133
+4.20E+12,2015-14911,06-02-2015 23:00,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,5XX BOWEN RD,26752,University District,19,49.170985,-123.952636
+4.20E+12,2015-13588,5/22/2015 10:11:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,5XX BOWEN RD,26752,University District,19,49.170985,-123.952636
+4.20E+12,2015-13249,5/19/2015 11:25:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,5XX BOWEN RD,26752,University District,19,49.170985,-123.952636
+4.20E+12,2015-12842,5/15/2015 9:08:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,XX BRYDEN ST,26769,Newcastle/brechin,16,49.174816,-123.942483
+4.20E+12,2015-15429,06-07-2015 19:12,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,18XX RICHARDSON RD,26778,Chase River,8,49.110847,-123.928169
+4.20E+11,2015-7376,3/20/2015 3:14:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,5XX HECATE ST,26798,Downtown,2,49.16045,-123.93739
+4.20E+11,2015-8840,04-05-2015 10:53,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,XX CALEDONIA AVE,26845,Newcastle/brechin,16,49.173471,-123.947952
+4.20E+12,2015-11676,05-04-2015 09:40,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,2XX TOWNSITE RD,26917,Newcastle/brechin,16,49.177355,-123.946646
+4.20E+11,2015-7598,3/23/2015 9:16:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,41XX WELLINGTON RD,26928,Diver Lake,13,49.206991,-124.020158
+4.20E+12,2015-13239,5/18/2015 10:00:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,5XX FRANKLYN ST,26987,Downtown,2,49.163114,-123.941694
+4.20E+11,2015-7607,3/23/2015 10:45:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,33XX SHENTON RD,27161,Diver Lake,13,49.201288,-124.006418
+4.20E+11,2015-5016,2/23/2015 9:00:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,11XX BEAUFORT DR,27526,Townsite,17,49.180983,-123.968132
+4.20E+12,2015-16921,6/19/2015 12:28:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,16XX TOWNSITE RD,27555,Northfield,5,49.181672,-123.977679
+4.20E+12,2015-11822,05-05-2015 21:52,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,16XX TOWNSITE RD,27555,Northfield,5,49.181672,-123.977679
+4.20E+11,2015-5632,03-08-2015 14:58,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,16XX TOWNSITE RD,27555,Northfield,5,49.181672,-123.977679
+4.20E+12,2015-13464,5/21/2015 10:41:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,16XX CASPERS WAY,27610,Northfield,5,49.17784,-123.977153
+4.20E+11,2015-8838,04-05-2015 10:18,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,1XX VICTORIA RD,27617,South End,6,49.159097,-123.935232
+4.20E+11,2015-6793,3/14/2015 6:02:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,19XX CINNABAR DR,27816,Chase River,8,49.105772,-123.932074
+4.20E+11,2015-7253,3/19/2015 4:45:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,12XX NANAIMO LAKES RD,27868,Westwood,18,49.134168,-123.974731
+4.20E+11,2015-5952,2/24/2015 11:59:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,17XX DUFFERIN CRES,27874,Northfield,5,49.183385,-123.979897
+4.20E+11,2015-5817,03-10-2015 16:30,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,8XX JORDON AVE,27928,Harewood,10,49.146073,-123.946273
+4.20E+11,2015-6813,2/24/2015 11:59:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,XX GILLESPIE ST,27947,South End,6,49.152048,-123.931342
+4.20E+11,2015-6912,3/15/2015 11:19:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,NEEDHAM ST / IRWIN ST,27980,South End,6,49.153425,-123.931088
+4.20E+11,2015-9536,04-12-2015 16:24,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,8XX FARQUHAR ST,28066,South End,6,49.156087,-123.933969
+4.20E+11,2015-9515,04-12-2015 12:49,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,13XX ISLAND HWY S,28068,Chase River,8,49.129359,-123.9206
+4.20E+11,2015-9477,04-11-2015 22:58,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,13XX PRINCESS ROYAL AVE,28079,Newcastle/brechin,16,49.183682,-123.952801
+4.20E+12,2015-10715,4/24/2015 10:10:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,49XX FILLINGER CRES,28110,North Slope,7,49.238818,-123.98908
+4.20E+12,2015-10174,4/18/2015 7:39:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,32XX SMUGGLERS HILL DR,28152,Linley Valley,14,49.210685,-123.979338
+4.20E+12,2015-15374,06-07-2015 09:40,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,2XX TERMINAL AVE N,28158,Newcastle/brechin,16,49.174642,-123.946168
+4.20E+12,2015-14041,5/26/2015 2:43:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,2XX TERMINAL AVE N,28158,Newcastle/brechin,16,49.174642,-123.946168
+4.20E+12,2015-10124,4/18/2015 1:02:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,2XX TERMINAL AVE N,28158,Newcastle/brechin,16,49.174642,-123.946168
+4.20E+12,2015-10986,4/26/2015 10:00:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,18XX GRANT AVE,28162,Townsite,17,49.188445,-123.965494
+4.20E+12,2015-11242,4/29/2015 3:11:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,6XX SARUM RISE WAY,28172,University District,19,49.167759,-123.963842
+4.20E+12,2015-13821,5/24/2015 8:08:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,22XX LABIEUX RD,28190,Northfield,5,49.201384,-123.996572
+4.20E+12,2015-12422,05-09-2015 12:00,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,56XX NORASEA RD,28198,North Slope,7,49.2345,-124.009756
+4.20E+12,2015-13586,5/22/2015 9:54:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,56XX EDGEWATER LANE,28232,Rutherford,12,49.221885,-124.032243
+4.20E+12,2015-12347,05-09-2015 17:30,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,46XX LAGUNA WAY,28248,Hammond Bay,15,49.228662,-123.975354
+4.20E+12,2015-12828,5/14/2015 9:00:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,5XX TOWNSITE RD,28261,Townsite,17,49.176974,-123.951813
+4.20E+12,2015-13574,5/21/2015 7:00:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,LORNE PL / BEAUFORT DR,28264,Townsite,17,49.181317,-123.967215
+4.20E+12,2015-15824,06-10-2015 18:21,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,37XX COUNTRY CLUB DR,28305,Departure Bay,3,49.204977,-124.000197
+4.20E+12,2015-14602,5/30/2015 11:00:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,37XX COUNTRY CLUB DR,28305,Departure Bay,3,49.204977,-124.000197
+4.20E+12,2015-14402,5/29/2015 6:55:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,59XX WATERTON DR,28324,Rutherford,12,49.233223,-124.035506
+4.20E+12,2015-16264,6/14/2015 7:10:00 AM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,13XX STEWART AVE,28402,Newcastle/brechin,16,49.185832,-123.947751
+4.20E+12,2015-18336,6/29/2015 11:59:00 PM,Other Break and Enter,2120-03,Break and Enter,1,Property Crime,1,46XX WELLINGTON RD,28530,Diver Lake,13,49.208945,-124.026322
+4.20E+12,2015-18378,07-01-2015 08:49,Seasonal Residence Break and Enter,2120-04,Break and Enter,1,Property Crime,1,30XX WATERSTONE WAY,28531,Linley Valley,14,49.209522,-123.962633
