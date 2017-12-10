@@ -3,12 +3,13 @@ class Circles implements Comparable<Circles>{
 	int centre;
 	int endpoint;
 	double radius;
-	
-	Circles(double llh, int centre,int endpoint, double radius) {
+	boolean verified ; 
+	Circles(double llh, int centre,int endpoint, double radius, boolean b) {
 		this.llh = llh;
 		this.centre = centre;
 		this.endpoint = endpoint;
 		this.radius = radius;
+		this.verified = b ; 
 	}
 	
 	public int compareTo(Circles compareCircle){
