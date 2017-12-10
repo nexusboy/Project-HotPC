@@ -13,7 +13,8 @@ public class CallableAdder implements Callable<Circles> {
        double rmin ; 
        double rmax ; 
 	int study_area;
-       CallableAdder(int i  ,double[][] finalGrid , ArrayList<Coordinates> centres, List<Coordinates> address,int stud,double rmin , double rmax)
+	double llh_limit ; 
+       CallableAdder(int i  ,double[][] finalGrid , ArrayList<Coordinates> centres, List<Coordinates> address,int stud,double rmin , double rmax, double llh_limit)
        {	 this.num_i = i ; 
              this.finalGrid=finalGrid;
              this.centres = centres;             
@@ -46,8 +47,10 @@ public class CallableAdder implements Callable<Circles> {
 				} // end if
 			}// end j for
     	   numOfTimes++;
-    	   
-    	   return new Circles(max_llh, num_i, end_point, finalGrid[num_i][end_point]);
+    	   if(max_llh > llh_limit ) {
+    	     return new Circles(max_llh, num_i, end_point, finalGrid[num_i][end_point],true);
+    	   }
+    	   return new Circles(max_llh, num_i, end_point, finalGrid[num_i][end_point],false);
        }
        private static boolean isInsideaCircle(Coordinates coordinates, double d, Coordinates coordinates2) {
    		if(distance(coordinates.latitude, coordinates.longitude, coordinates2.latitude, coordinates2.longitude) <= d ) {// If distance between the centers <= 
