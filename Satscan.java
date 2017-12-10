@@ -30,12 +30,14 @@ public class Satscan {
 		double B = (P*circle_area)/study_area;// Expected Number of points the circle.
 		
 		if(point_count > B){
-			return Math.log(Math.pow(point_count/B, point_count) * Math.pow((P - point_count)/(P - B), P - point_count));
+			return Math.log10(Math.pow(point_count/B, point_count) * Math.pow((P - point_count)/(P - B), P - point_count));//math.log is base e
 		}
 		else{
-			return Math.log(0);
+			//System.out.println("log0");
+			return Math.log10(0);
 		}
 	}
+	
 	
 	public static List<Coordinates> random_set(double min_lat, double max_lat, double min_long, double max_long, int number){
 		
