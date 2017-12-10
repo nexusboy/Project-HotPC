@@ -9,8 +9,11 @@ public class CallableAdder implements Callable<Circles> {
        int num_i ; 
        int end_point ; 
        double max_llh ; 
+       int flag ; 
+       double rmin ; 
+       double rmax ; 
 	int study_area;
-       CallableAdder(int i  ,double[][] finalGrid , ArrayList<Coordinates> centres, List<Coordinates> address,int stud)
+       CallableAdder(int i  ,double[][] finalGrid , ArrayList<Coordinates> centres, List<Coordinates> address,int stud,double rmin , double rmax)
        {	 this.num_i = i ; 
              this.finalGrid=finalGrid;
              this.centres = centres;             
@@ -18,11 +21,15 @@ public class CallableAdder implements Callable<Circles> {
              this.end_point = 0 ;
              this.max_llh = Double.MIN_VALUE;
       	    this.study_area = stud;
+      	    this.flag = 0 ; 
+      	    this.rmin = rmin ; 
+      	    this.rmax = rmax ; 
 	 }          
        public Circles call() throws Exception {
     	   for (int j = 0; j < centres.size() ; j++) {	// For All Other centers in the list 
-				if(num_i != j) {	// If they are different centers
+				if(num_i != j && finalGrid[num_i][j] > rmin && finalGrid[num_i][j] < rmax ) {	// If they are different centers
 					 int numOfPoints = 0 ; // Finding number of points in each circle......
+					 flag = 1; 
 					 for (int k = 0; k < address.size() ; k++) { // For each point in the dataset find if the point lies in the circle or not ? 
 						if(isInsideaCircle(centres.get(num_i),finalGrid[num_i][j] , address.get(k))) {
 							numOfPoints++;
@@ -39,6 +46,7 @@ public class CallableAdder implements Callable<Circles> {
 				} // end if
 			}// end j for
     	   numOfTimes++;
+    	   
     	   return new Circles(max_llh, num_i, end_point, finalGrid[num_i][end_point]);
        }
        private static boolean isInsideaCircle(Coordinates coordinates, double d, Coordinates coordinates2) {
