@@ -212,16 +212,20 @@ public class Satscan {
        System.out.println("Size Of Candidate Circles = " + Candidate_circles.size());
        
        //Upto here we can get candidate circle list and MCS.
-       int[] overlapping_state = new int[Candidate_circles.size()];
-       
-       for(int i=0;i<Candidate_circles.size();i++){
-    	   Circles c1 = Candidate_circles.get(i);
-    	   if(c1.llh > llh_limit){
+
+      
+      
+      
+      //Upto here we can get candidate circle list and MCS.
+      int[] overlapping_state = new int[Candidate_circles.size()];
+      Collections.sort(Candidate_circles);
+      for(int i=0;i<Candidate_circles.size();i++){
+   	   Circles c1 = Candidate_circles.get(i);
+   	  
 	    	   if(overlapping_state[i] == 0){
 	    		   overlapping_state[i] = 1;
 	    		   Circles Hotspot = c1;
-	    		   double max_llh_overlapping = c1.llh;
-	    		   
+
 	    		   for(int j=0;j<Candidate_circles.size();j++){
 	    			   
 	    			   if(overlapping_state[j] == 0){
@@ -229,24 +233,13 @@ public class Satscan {
 	    				   
 	    				   if(c1.radius + c2.radius > finalGrid[c1.centre][c2.centre]){
 	    					   overlapping_state[j] = 1;
-	    					   if(c2.llh > max_llh_overlapping){
-	    						   max_llh_overlapping = c2.llh;
-	    						   Hotspot = c2;
-	    					   }
 	    				   }
 	    			   }
 	    		   }
-	    		   
-	    		   //Print hotspot
 	    		   System.out.println("Centre: "+ centres.get(Hotspot.centre).latitude + ", "+ centres.get(Hotspot.centre).longitude+" Radius: "+Hotspot.radius
 						+"llr :" + Hotspot.llh);
 	    	   }
-    	   }
-    	   else{
-    		   overlapping_state[i] = 1;
-    	   }
-       }//all candidate circles
-       
+      }//all candidate circles
        long endTime   = System.currentTimeMillis();
        long totalTime = endTime - startTime;
        System.out.println("Run Time for Satscan: "+totalTime);
