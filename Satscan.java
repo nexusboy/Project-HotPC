@@ -5,6 +5,9 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
+
 import java.math.*;
 
 
@@ -138,7 +141,7 @@ public class Satscan {
 		/*
 		 * Code for getting the input from the file
 		 * */
-         	 double lat_spacing=0.005;
+         	 double lat_spacing=0.3;
 		double long_spacing = 0.005 ; // This is the variable used while enumerating all possible points in that rectangle 
 		long startTime = System.currentTimeMillis();
 		BufferedReader br = new BufferedReader(new FileReader("break.csv"));
@@ -147,6 +150,8 @@ public class Satscan {
         double min_lat = 90, max_lat = -90;
         double min_long = 180, max_long = -180;
         List<Coordinates> Address = new ArrayList<>();
+        double rmin = 0.1 ; 
+        double rmax = 4 ; 
         
         while((line = br.readLine()) != null){
             String[] b = line.split(splitBy);
@@ -207,7 +212,7 @@ public class Satscan {
        List<Circles> Candidate_circles = new ArrayList<>();
        
        //4.1) Populate the list with the Candidate circles 
-       populateCandidateCirclesCopy(Candidate_circles,finalGrid,centres,Address,study_area);
+       populateCandidateCirclesCopy(Candidate_circles,finalGrid,centres,Address,study_area,llh_limit,rmin,rmax);
        
        System.out.println("Size Of Candidate Circles = " + Candidate_circles.size());
        
@@ -218,7 +223,7 @@ public class Satscan {
       
       //Upto here we can get candidate circle list and MCS.
       int[] overlapping_state = new int[Candidate_circles.size()];
-      Collections.sort(Candidate_circles);
+      Collections.sort( Candidate_circles);
       for(int i=0;i<Candidate_circles.size();i++){
    	   Circles c1 = Candidate_circles.get(i);
    	  
@@ -246,7 +251,7 @@ public class Satscan {
        
 	}//main
 
-	private static void populateCandidateCircles(List<Circles> candidate_circles, double[][] finalGrid, ArrayList<Coordinates> centres, List<Coordinates> address,int study_area) {
+	private static void populateCandidateCircles(List<Circles> candidate_circles, double[][] finalGrid, ArrayList<Coordinates> centres, List<Coordinates> address,int study_area,double llh_limit) {
 	//	System.out.println("entered"); // Not entered 
 		for (int i = 0; i < centres.size() ; i++) {	// For Each Center in the Grid 
 			double max_llh = Double.MIN_VALUE;
@@ -269,17 +274,20 @@ public class Satscan {
 	    			   
 				} // end if
 			}// end j for
+			
 			candidate_circles.add(new Circles(max_llh,i, endpoint, finalGrid[i][endpoint]));
+			
 		}// end i for 
 	}
 	
-	private static void populateCandidateCirclesCopy(List<Circles> candidate_circles,double[][] finalGrid, ArrayList<Coordinates> centres, List<Coordinates> address,int study_area) {
+	private static void populateCandidateCirclesCopy(List<Circles> candidate_circles,double[][] finalGrid, ArrayList<Coordinates> centres, List<Coordinates> address,int study_area, double max_llh,
+			double rmin,double rmax) {
 		//	System.out.println("entered"); // Not entered 
 		Integer threads = Runtime.getRuntime().availableProcessors();
 	    ExecutorService service = Executors.newFixedThreadPool(threads);
 	    List <Future<Circles>> list = new ArrayList<Future<Circles>>(); 
 			for (int i = 0; i < centres.size() ; i++) {	// For Each Center in the Grid 
-				Future <Circles> future = service.submit(new CallableAdder(i, finalGrid, centres, address,study_area));
+				Future <Circles> future = service.submit(new CallableAdder(i, finalGrid, centres, address,study_area,rmin,rmax));
 				list.add(future);
 			}// end i for
 			service.shutdown();
@@ -293,6 +301,16 @@ public class Satscan {
 					e.printStackTrace();
 				}
 			}
+			ArrayList<Integer> indexes = new ArrayList<>(); 
+			for (int i = 0; i < candidate_circles.size(); i++) {
+				if(max_llh > candidate_circles.get(i).llh ) {
+					indexes.add(i);
+				}
+			}
+			for (int i = 0; i < indexes.size(); i++) {
+			     candidate_circles.remove(indexes.get(i));	
+			}
+			
 		}
 	/**
 	 * This Function is created for checking whether the point 
@@ -335,7 +353,6 @@ public class Satscan {
 			for(int i = 0 ; i < allPossibleLatitutes.size() ; i++ ) {
 				for (int j = 0; j < allPossibleLongitutes.size(); j++) {
 					centres.add(new Coordinates(allPossibleLatitutes.get(i), allPossibleLongitutes.get(j)));
-					//System.out.println("ajjsajj");
 				}
 			}	
 	}
