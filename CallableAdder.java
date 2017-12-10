@@ -31,7 +31,7 @@ public class CallableAdder implements Callable<Circles> {
 					//Now Calculate log likelihood of each circle. 
 					// System.out.println(numOfPoints);
 					  double current_llh = loglikelihood(numOfPoints, address.size(), 3.14*finalGrid[num_i][j]*finalGrid[num_i][j], study_area);	    			   
-	    			   if(current_llh > max_llh){
+	    			   if(!Double.isInfinite(current_llh)&&current_llh > max_llh){
 	    				   max_llh = current_llh;
 	    				   end_point = j;
 	    			   }
